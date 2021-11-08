@@ -9,6 +9,7 @@
         <td>Id Barang</td>
         <td>Id Kategori</td>
         <td>Nama Barang</td>
+        <td colspan="2">Action</td>
     </tr>
 <?php
     $no = 1;
@@ -18,6 +19,8 @@
         <td><?php echo $show['id_barang']?></td>
         <td><?php echo $show['id_kategori']?></td>
         <td><?php echo $show['nama_barang']?></td>
+        <td><a href="edit_barang.php?id=<?php echo $show['id_barang'];?>">EDIT</a></td>
+        <td><a href="hapus_barang.php?id=<?php echo $show['id_barang'];?>">DELETE</a></td>
     </tr>
 
 <?php
@@ -26,3 +29,5 @@
 </table>
 <br>
 <a href="tambah_barang.php"><button type="submit">Tambah Barang</button></a>
+
+<a href="/"><button type="submit">Home</button></a>
