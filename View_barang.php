@@ -38,4 +38,4 @@
 <br>
 <a href="tambah_barang.php"><button type="submit">Tambah Barang</button></a>
 
-<a href="/iky"><button type="submit">Home</button></a>
+<a href="/"><button type="submit">Home</button></a>

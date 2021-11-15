@@ -37,4 +37,4 @@
 <br>
 <a href="tambah_anggota.php"><button type="submit">Tambah Anggota</button></a>
 
-<a href="/iky"><button type="submit">Home</button></a>
+<a href="/"><button type="submit">Home</button></a>
